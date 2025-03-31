@@ -1,0 +1,10 @@
+
+.searcher__container {
+    display: flex;
+    justify-content: end;
+    margin: 2rem;
+    .input__container {
+        border-radius: 0.25rem;
+        width: 200px;
+    }
+}

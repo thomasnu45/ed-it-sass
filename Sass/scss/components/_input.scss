@@ -1,0 +1,17 @@
+.input__container {
+    border: $input-border-width $input-border-style $input-border-color;
+    border-radius: $input-border-radius;
+    padding: 0.5rem 1rem;
+    &:hover {
+        outline: $input-hover-outline-with solid $input-hover-outline-color;
+    }
+}
+
+.textarea__container {
+    border: $input-border-width $input-border-style $input-border-color;
+    border-radius: $input-border-radius;
+    padding: 0.5rem 1rem;
+    &:hover {
+        outline: $input-hover-outline-with solid $input-hover-outline-color;
+    }
+}    

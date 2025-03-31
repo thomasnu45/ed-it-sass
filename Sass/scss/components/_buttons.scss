@@ -1,0 +1,14 @@
+.btn {
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    &-primary {
+        border:$input-border-width $input-border-style $primary-color;
+        color: $primary-color;
+        background-color: lighten($color: $primary-color, $amount: 70);
+    }
+    &-secondary {
+        border:$input-border-width $input-border-style $secondary-color;
+        color: $secondary-color;
+        background-color: darken($color: $secondary-color, $amount: 45);
+    }
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form example with SASS</title>
+    <link rel="stylesheet" href="scss/main.css">  
+</head>
+<body>
+    <div class="searcher__container">
+    <input type="tetx" name="search" id="search" placeholder="Buscar......." class=" input__container">
+    </div>  
+    <form class="products__form-container ">
+        <label for="nameProduct">Nombre del producto</label>
+        <input type="text" id="nameProduct" name="nameProduct" minlength="50" class="input__container">
+        <label for="price">Price</label>
+        <input type="number" id="price" name="price" min="1" class="input__container">
+        <label for="stock">Stock</label>
+        <input type="text" id="stock" name="stock" min="0" class="input__container">
+        <label for="description">Descripción</label>
+        <textarea name="description" id="description" class="textarea__container"></textarea>
+        <div> 
+        <input type="checkbox" id="freeSend" name="freeSend"><label for="freeSend">Envio gratis</label>   
+        </div>
+        <button type="submit"class="btn btn-primary" >guardar producto</button>
+        <button type="reset" class="btn btn-secondary" >Limpiar el formulario</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+}
+
+.btn {
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+.btn-primary {
+  border: 1px solid rgb(78, 15, 78);
+  color: rgb(78, 15, 78);
+  background-color: #f5cdf5;
+}
+.btn-secondary {
+  border: 1px solid rgb(139, 139, 247);
+  color: rgb(139, 139, 247);
+  background-color: #0a0a92;
+}
+
+.input__container {
+  border: 1px solid #333;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+}
+.input__container:hover {
+  outline: 2px solid rgb(12, 12, 142);
+}
+
+.textarea__container {
+  border: 1px solid #333;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+}
+.textarea__container:hover {
+  outline: 2px solid rgb(12, 12, 142);
+}
+
+.searcher__container {
+  display: flex;
+  justify-content: end;
+  margin: 2rem;
+}
+.searcher__container .input__container {
+  border-radius: 0.25rem;
+  width: 200px;
+}
+
+.products__form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 30%;
+  margin: 2rem;
+}/*# sourceMappingURL=main.css.map */
